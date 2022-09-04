@@ -8,6 +8,9 @@ public class LongestCommonSubString {
         System.out.println(longestPalindrome("babad"));
     }
 
+    // TC - O(n^2)
+    // SC - O(n^2)
+
     public static String longestPalindrome(String s) {
        int length = s.length();
        boolean dp[][] = new boolean[length][length];

@@ -31,6 +31,9 @@ public class AddNumbers {
             node = node.next;
         }
     }
+
+    // TC - O(max(m,n)). Assume that mm and nn represents the length of l1l1 and l2l2 respectively
+    // SC - O(max(m,n))
     public static Node addTwoNumbers(Node l1, Node l2) {
         Node dummy = new Node(0);
         Node cur = dummy;

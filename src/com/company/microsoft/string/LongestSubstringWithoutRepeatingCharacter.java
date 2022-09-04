@@ -7,8 +7,8 @@ public class LongestSubstringWithoutRepeatingCharacter {
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
     }
-    //tc - o(n)
-    //sc - o(n)
+    //TC - o(n)
+    //SC - o(n)
     public static int lengthOfLongestSubstring(String s) {
         int length = s.length();
         Map<Character,Integer> map = new HashMap<Character,Integer>();
